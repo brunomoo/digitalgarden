@@ -67,5 +67,9 @@
             <p>En Grindr, la imagen lo es todo. Muchas veces se reduce a un <span class="highlight">mercado de carne</span>, donde lo que importa es la apariencia inmediata.</p>
         </div>
     </div>
+    
 
 </body>
+>[!quote] Percepción sobre Grindr 
+>Grindr me parece tal y tal!
+
