@@ -1,8 +1,11 @@
-.markdown-preview-view .internal-embed[alt$=".svg"] {
+.markdown-preview-view .internal-embed[alt$=".svg"],
+.markdown-preview-view .internal-embed[src$=".svg"] {
     width: 100%;
     max-width: 100vw;
     height: auto;
     max-height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
+
