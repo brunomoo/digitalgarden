@@ -1,0 +1,7 @@
+object {
+    background: transparent !important;
+}
+
+object[data*=".svg"] {
+    background: transparent !important;
+}
