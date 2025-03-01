@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-02-28T20:31:15.571-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-02-28T20:57:04.521-05:00"}
 ---
 
 
@@ -9,31 +9,31 @@
 <body> <!-- Pon el fondo negro para verificar -->
     <embed src="https://www.dropbox.com/scl/fi/egavk63v60dydlda4u2dk/perfil-viajero-y-de-gimnasio.svg?rlkey=2zzr00vmiunc7t72hc6t9x172&st=o4u0blnw&raw=1" 
         type="image/svg+xml" 
-        width="70%" height="70%">
+        width="100%" height="100%">
     </embed>
 </body>
 <body> <!-- Pon el fondo negro para verificar -->
-    <embed src="https://www.dropbox.com/scl/fi/p8u5kin8hk3wg2jhm4c8l/perfil-falso-y-caleta.svg?rlkey=09835q46vmflv6hd77j3vhz2x&st=466o8nkd&raw=1" 
+    <embed src="https://www.dropbox.com/scl/fi/vbykp0audp2hszagngjk9/perfil-anonimo____.svg?rlkey=k1egny9uufqoq02pev7xu8jrw&st=en7eijsp&raw=1" 
         type="image/svg+xml" 
-        width="70%" height="70%">
+        width="100%" height="100%">
     </embed>
 </body>
 <body> <!-- Pon el fondo negro para verificar -->
-    <embed src="https://www.dropbox.com/scl/fi/rt3y74oikz5j1o28bkn61/perfil-de-selfie-de-rostro.svg?rlkey=d4h0n57ivjvlz8aa5q4c0dp3g&st=hu7xv9cv&raw=1" 
+    <embed src="https://www.dropbox.com/scl/fi/ruvvy0o4i9d8796sgcnsk/perfil-de-cuerpo___.svg?rlkey=3057e35kghp0zsllrethr0q6m&st=cqxgzzrc&raw=1" 
         type="image/svg+xml" 
-        width="70%" height="70%">
+        width="100%" height="100%">
     </embed>
 </body>
 <body> <!-- Pon el fondo negro para verificar -->
-    <embed src="https://www.dropbox.com/scl/fi/yawp8y2i8ocwtc3w28u29/perfil-de-cuerpo.svg?rlkey=zo3rtua98itxk7bxgtorvj196&st=nkpuyfmp&raw=1" 
+    <embed src="https://www.dropbox.com/scl/fi/3qog0g9yo54hsihchh8fd/perfil-de-selfie-de-rostro___.svg?rlkey=7bb003m025l9ivkmuzrbmos2b&st=pbkffixx&raw=1" 
         type="image/svg+xml" 
-        width="70%" height="70%">
+        width="100%" height="100%">
     </embed>
 </body>
 <body> <!-- Pon el fondo negro para verificar -->
-    <embed src="https://www.dropbox.com/scl/fi/416wayhbn16uh3n0b3e3n/perfil-anonimo.svg?rlkey=eftniz023yz8x8sg1kuv2xzbc&st=ew58287b&raw=1" 
+    <embed src="https://www.dropbox.com/scl/fi/0kyli24jsvp1l4m3es10a/perfil-viajero-y-de-gimnasio___.svg?rlkey=zepgevi3199lianwfagcj5jet&st=8zebstx2&raw=1" 
         type="image/svg+xml" 
-        width="70%" height="70%">
+        width="100%" height="100%">
     </embed>
 </body>
 
