@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-02-28T20:25:43.385-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-02-28T20:31:15.571-05:00"}
 ---
 
 
@@ -9,33 +9,34 @@
 <body> <!-- Pon el fondo negro para verificar -->
     <embed src="https://www.dropbox.com/scl/fi/egavk63v60dydlda4u2dk/perfil-viajero-y-de-gimnasio.svg?rlkey=2zzr00vmiunc7t72hc6t9x172&st=o4u0blnw&raw=1" 
         type="image/svg+xml" 
-        width="100%" height="100%">
+        width="70%" height="70%">
     </embed>
 </body>
 <body> <!-- Pon el fondo negro para verificar -->
     <embed src="https://www.dropbox.com/scl/fi/p8u5kin8hk3wg2jhm4c8l/perfil-falso-y-caleta.svg?rlkey=09835q46vmflv6hd77j3vhz2x&st=466o8nkd&raw=1" 
         type="image/svg+xml" 
-        width="100%" height="100%">
+        width="70%" height="70%">
     </embed>
 </body>
 <body> <!-- Pon el fondo negro para verificar -->
     <embed src="https://www.dropbox.com/scl/fi/rt3y74oikz5j1o28bkn61/perfil-de-selfie-de-rostro.svg?rlkey=d4h0n57ivjvlz8aa5q4c0dp3g&st=hu7xv9cv&raw=1" 
         type="image/svg+xml" 
-        width="100%" height="100%">
+        width="70%" height="70%">
     </embed>
 </body>
 <body> <!-- Pon el fondo negro para verificar -->
     <embed src="https://www.dropbox.com/scl/fi/yawp8y2i8ocwtc3w28u29/perfil-de-cuerpo.svg?rlkey=zo3rtua98itxk7bxgtorvj196&st=nkpuyfmp&raw=1" 
         type="image/svg+xml" 
-        width="100%" height="100%">
+        width="70%" height="70%">
     </embed>
 </body>
 <body> <!-- Pon el fondo negro para verificar -->
     <embed src="https://www.dropbox.com/scl/fi/416wayhbn16uh3n0b3e3n/perfil-anonimo.svg?rlkey=eftniz023yz8x8sg1kuv2xzbc&st=ew58287b&raw=1" 
         type="image/svg+xml" 
-        width="100%" height="100%">
+        width="70%" height="70%">
     </embed>
 </body>
+
 ## Bisexuales
 <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
     <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
@@ -53,6 +54,7 @@
     </div>
     <p style="margin-top: 5px; font-size: 14px;">Texto debajo de ambas imágenes</p>
 </div>
+
 ## Discriminadores
 <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
     <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
@@ -116,7 +118,7 @@
     <p style="margin-top: 5px; font-size: 14px;">Texto debajo de ambas imágenes</p>
 </div>
 
-Servicios sexuales
+## Servicios sexuales
 <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
     <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
         <img src="https://www.dropbox.com/scl/fi/oe7a24yj9jm8uu5p11fko/Servsex-1-87.webp?rlkey=hgezi7gzboplfi0kjq62xpy3m&st=bld9kof2&raw=1" style="max-width: 100%; height: auto; width: 300px;">
