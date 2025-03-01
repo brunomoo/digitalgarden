@@ -1,7 +1,17 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-02-28T20:59:50.127-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-02-28T21:05:41.468-05:00"}
 ---
 
+```mermaid
+graph TD
+    A[Inicio] --> B[Idea]
+    B --> C{¿Es viable?}
+    C -- Sí --> D[Desarrollar]
+    C -- No --> E[Descartar o Revisar]
+    D --> F[Implementar]
+    E --> B
+    F --> G[Fin]
+```
 
 [[Proyectos/Proyecto Grindr/Investigación/Corporales (anónimos)\|Corporales (anónimos)]]
 [[Proyectos/Proyecto Grindr/Investigación/Heteronormativos\|Heteronormativos]]
