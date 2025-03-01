@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-02-28T20:57:04.521-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-02-28T20:59:50.127-05:00"}
 ---
 
 
@@ -7,7 +7,7 @@
 [[Proyectos/Proyecto Grindr/Investigación/Heteronormativos\|Heteronormativos]]
 
 <body> <!-- Pon el fondo negro para verificar -->
-    <embed src="https://www.dropbox.com/scl/fi/egavk63v60dydlda4u2dk/perfil-viajero-y-de-gimnasio.svg?rlkey=2zzr00vmiunc7t72hc6t9x172&st=o4u0blnw&raw=1" 
+    <embed src="https://www.dropbox.com/scl/fi/4xf98429iztssr03s76dw/perfil-falso-y-caleta___.svg?rlkey=zz2ula0hb9duxb0w50mq7mtyp&st=vwpyyjb7&raw=1" 
         type="image/svg+xml" 
         width="100%" height="100%">
     </embed>
