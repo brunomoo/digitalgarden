@@ -7,6 +7,9 @@ object[type="image/svg+xml"] svg {
     background: none !important;
     fill: currentColor; /* Esto mantiene los colores del SVG */
 }
+.callout-icon embed {
+    background: transparent !important;
+}
 
 
 /* 🔹 En modo oscuro, usa lighten */
