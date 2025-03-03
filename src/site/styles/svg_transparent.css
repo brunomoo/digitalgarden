@@ -1,5 +1,6 @@
 embed[type="image/svg+xml"], object[type="image/svg+xml"], iframe {
     background: transparent !important;
+    backdrop-filter: none !important;
 }
 embed[type="image/svg+xml"] *,
 object[type="image/svg+xml"] * {
