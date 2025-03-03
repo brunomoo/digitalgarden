@@ -7,3 +7,20 @@ object[type="image/svg+xml"] svg {
     background: none !important;
     fill: currentColor; /* Esto mantiene los colores del SVG */
 }
+
+
+/* Modo oscuro: Aplica lighten */
+@media (prefers-color-scheme: dark) {
+    embed[type="image/svg+xml"], 
+    object[type="image/svg+xml"] {
+        mix-blend-mode: lighten !important;
+    }
+}
+
+/* Modo claro: No aplica blending */
+@media (prefers-color-scheme: light) {
+    embed[type="image/svg+xml"], 
+    object[type="image/svg+xml"] {
+        mix-blend-mode: normal !important;
+    }
+}
