@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/entrevistas-grindr/","created":"2025-02-27T00:55:05.246-05:00","updated":"2025-03-03T15:36:58.776-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/entrevistas-grindr/","created":"2025-02-27T00:55:05.246-05:00","updated":"2025-03-03T15:39:51.028-05:00"}
 ---
 
 <body> <!-- Pon el fondo negro para verificar -->
     <embed src="https://www.dropbox.com/scl/fi/nrpz3kadngo1vgyhxqh4o/Grindr-entrevistas-sintetizado2.svg?rlkey=yxs2tzg0rhy5kremgiigiosab&st=t3q1d04d&raw=1" 
         type="image/svg+xml" 
         width="100%" height="100%"
-        style="background: transparent !important; mix-blend-mode: multiply;"
+        style="background: transparent !important;"
         >
     </embed>
 </body>
