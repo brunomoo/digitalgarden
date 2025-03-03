@@ -2,15 +2,17 @@
     function updateEmbedSources() {
         const lightTheme = document.querySelector(".theme-light");
         const darkTheme = document.querySelector(".theme-dark");
+        
+        // Método 1: Basado en estilos CSS (solo funciona si "display" cambia)
         const isDarkMode = window.getComputedStyle(darkTheme).display !== "none";
+
+        // Método 2: Basado en clases directamente (si cambias clases, usa este)
+        // const isDarkMode = document.body.classList.contains("dark-mode"); // Descomentar si usas clases para cambiar tema
         
         document.querySelectorAll(".dynamic-embed").forEach(embed => {
-            if (isDarkMode) {
-                const darkSrc = embed.getAttribute("data-dark");
-                if (darkSrc) embed.src = darkSrc;
-            } else {
-                const lightSrc = embed.getAttribute("data-light");
-                if (lightSrc) embed.src = lightSrc;
+            const newSrc = isDarkMode ? embed.getAttribute("data-dark") : embed.getAttribute("data-light");
+            if (embed.src !== newSrc) {
+                embed.src = newSrc;
             }
         });
     }
@@ -18,7 +20,7 @@
     // Ejecutar al cargar la página
     document.addEventListener("DOMContentLoaded", updateEmbedSources);
     
-    // Opcional: si el tema cambia dinámicamente con clases
+    // Detectar cambios en el DOM si cambia la clase del body
     const observer = new MutationObserver(updateEmbedSources);
     observer.observe(document.body, { attributes: true, subtree: true, attributeFilter: ["class"] });
 </script>
