@@ -2,7 +2,8 @@ embed[type="image/svg+xml"], object[type="image/svg+xml"], iframe {
     background: transparent !important;
     backdrop-filter: none !important;
 }
-embed[type="image/svg+xml"] *,
-object[type="image/svg+xml"] * {
+embed[type="image/svg+xml"] svg, 
+object[type="image/svg+xml"] svg {
     background: none !important;
+    fill: currentColor; /* Esto mantiene los colores del SVG */
 }
