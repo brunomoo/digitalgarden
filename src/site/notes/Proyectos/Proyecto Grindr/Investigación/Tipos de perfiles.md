@@ -1,45 +1,42 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-02-28T21:05:41.468-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-02-28T21:26:23.721-05:00"}
 ---
-
-```mermaid
-graph TD
-    A[Inicio] --> B[Idea]
-    B --> C{¿Es viable?}
-    C -- Sí --> D[Desarrollar]
-    C -- No --> E[Descartar o Revisar]
-    D --> F[Implementar]
-    E --> B
-    F --> G[Fin]
-```
 
 [[Proyectos/Proyecto Grindr/Investigación/Corporales (anónimos)\|Corporales (anónimos)]]
 [[Proyectos/Proyecto Grindr/Investigación/Heteronormativos\|Heteronormativos]]
-
+Perfil falso y caleta
 <body> <!-- Pon el fondo negro para verificar -->
     <embed src="https://www.dropbox.com/scl/fi/4xf98429iztssr03s76dw/perfil-falso-y-caleta___.svg?rlkey=zz2ula0hb9duxb0w50mq7mtyp&st=vwpyyjb7&raw=1" 
         type="image/svg+xml" 
         width="100%" height="100%">
     </embed>
 </body>
+
+Perfil anonimo
 <body> <!-- Pon el fondo negro para verificar -->
     <embed src="https://www.dropbox.com/scl/fi/vbykp0audp2hszagngjk9/perfil-anonimo____.svg?rlkey=k1egny9uufqoq02pev7xu8jrw&st=en7eijsp&raw=1" 
         type="image/svg+xml" 
         width="100%" height="100%">
     </embed>
 </body>
+
+Perfil de cuerpo
 <body> <!-- Pon el fondo negro para verificar -->
     <embed src="https://www.dropbox.com/scl/fi/ruvvy0o4i9d8796sgcnsk/perfil-de-cuerpo___.svg?rlkey=3057e35kghp0zsllrethr0q6m&st=cqxgzzrc&raw=1" 
         type="image/svg+xml" 
         width="100%" height="100%">
     </embed>
 </body>
+
+Perfil de selfie de rostro
 <body> <!-- Pon el fondo negro para verificar -->
     <embed src="https://www.dropbox.com/scl/fi/3qog0g9yo54hsihchh8fd/perfil-de-selfie-de-rostro___.svg?rlkey=7bb003m025l9ivkmuzrbmos2b&st=pbkffixx&raw=1" 
         type="image/svg+xml" 
         width="100%" height="100%">
     </embed>
 </body>
+
+Perfil viajero y de gimnasio
 <body> <!-- Pon el fondo negro para verificar -->
     <embed src="https://www.dropbox.com/scl/fi/0kyli24jsvp1l4m3es10a/perfil-viajero-y-de-gimnasio___.svg?rlkey=zepgevi3199lianwfagcj5jet&st=8zebstx2&raw=1" 
         type="image/svg+xml" 
