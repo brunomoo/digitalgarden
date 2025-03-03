@@ -9,18 +9,14 @@ object[type="image/svg+xml"] svg {
 }
 
 
-/* Modo oscuro: Aplica lighten */
-@media (prefers-color-scheme: dark) {
-    embed[type="image/svg+xml"], 
-    object[type="image/svg+xml"] {
-        mix-blend-mode: lighten !important;
-    }
+/* 🔹 En modo oscuro, usa lighten */
+.theme-dark embed[type="image/svg+xml"], 
+.theme-dark object[type="image/svg+xml"] {
+    mix-blend-mode: lighten !important;
 }
 
-/* Modo claro: No aplica blending */
-@media (prefers-color-scheme: light) {
-    embed[type="image/svg+xml"], 
-    object[type="image/svg+xml"] {
-        mix-blend-mode: normal !important;
-    }
+/* 🔹 En modo claro, usa normal */
+.theme-light embed[type="image/svg+xml"], 
+.theme-light object[type="image/svg+xml"] {
+    mix-blend-mode: normal !important;
 }
