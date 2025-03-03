@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-03-03T16:54:15.168-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-03-03T16:56:02.188-05:00"}
 ---
 
 [[Proyectos/Proyecto Grindr/Investigación/Corporales (anónimos)\|Corporales (anónimos)]]
@@ -8,7 +8,7 @@ Perfil falso y caleta
 <!-- Pon el fondo negro para verificar -->
     <embed src="https://www.dropbox.com/scl/fi/4xf98429iztssr03s76dw/perfil-falso-y-caleta___.svg?rlkey=zz2ula0hb9duxb0w50mq7mtyp&st=vwpyyjb7&raw=1" 
         type="image/svg+xml" 
-        width="100%" height="100%>
+        width="100%" height="100%">
     </embed>
 
 Perfil anonimo
