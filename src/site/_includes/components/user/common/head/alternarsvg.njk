@@ -1,0 +1,12 @@
+function updateEmbedSource() {
+    const embed = document.getElementById("dynamic-embed");
+    const darkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    
+    embed.src = darkMode ? "dark-version.svg" : "light-version.svg";
+}
+
+// Ejecutar al cargar la página
+updateEmbedSource();
+
+// Escuchar cambios en el tema
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", updateEmbedSource);
