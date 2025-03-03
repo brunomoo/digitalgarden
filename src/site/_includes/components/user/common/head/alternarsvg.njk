@@ -1,12 +1,14 @@
-function updateEmbedSource() {
-    const embed = document.getElementById("dynamic-embed");
-    const darkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    
-    embed.src = darkMode ? "dark-version.svg" : "light-version.svg";
-}
+<script>
+        function updateEmbedSource() {
+            const embed = document.getElementById("dynamic-embed");
+            const darkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
+            
+            embed.src = darkMode ? "dark-version.svg" : "light-version.svg";
+        }
 
-// Ejecutar al cargar la página
-updateEmbedSource();
+        // Ejecutar antes de renderizar
+        document.addEventListener("DOMContentLoaded", updateEmbedSource);
 
-// Escuchar cambios en el tema
-window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", updateEmbedSource);
+        // Escuchar cambios en el tema
+        window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", updateEmbedSource);
+    </script>
