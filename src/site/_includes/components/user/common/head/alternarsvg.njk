@@ -1,14 +1,24 @@
 <script>
-        function updateEmbedSource() {
-            const embed = document.getElementById("dynamic-embed");
-            const darkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
-            
-            embed.src = darkMode ? "dark-version.svg" : "light-version.svg";
-        }
+    function updateEmbedSources() {
+        const lightTheme = document.querySelector(".theme-light");
+        const darkTheme = document.querySelector(".theme-dark");
+        const isDarkMode = window.getComputedStyle(darkTheme).display !== "none";
+        
+        document.querySelectorAll(".dynamic-embed").forEach(embed => {
+            if (isDarkMode) {
+                const darkSrc = embed.getAttribute("data-dark");
+                if (darkSrc) embed.src = darkSrc;
+            } else {
+                const lightSrc = embed.getAttribute("data-light");
+                if (lightSrc) embed.src = lightSrc;
+            }
+        });
+    }
 
-        // Ejecutar antes de renderizar
-        document.addEventListener("DOMContentLoaded", updateEmbedSource);
-
-        // Escuchar cambios en el tema
-        window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", updateEmbedSource);
-    </script>
+    // Ejecutar al cargar la página
+    document.addEventListener("DOMContentLoaded", updateEmbedSources);
+    
+    // Opcional: si el tema cambia dinámicamente con clases
+    const observer = new MutationObserver(updateEmbedSources);
+    observer.observe(document.body, { attributes: true, subtree: true, attributeFilter: ["class"] });
+</script>
