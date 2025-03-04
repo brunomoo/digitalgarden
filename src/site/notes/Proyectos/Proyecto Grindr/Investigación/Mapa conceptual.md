@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/mapa-conceptual/","created":"2025-02-27T12:14:19.761-05:00","updated":"2025-03-03T20:25:33.977-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/mapa-conceptual/","created":"2025-02-27T12:14:19.761-05:00","updated":"2025-03-03T20:53:52.264-05:00"}
 ---
 
 El mapa conceptual se elaboró en base a la investigación, por tanto de la revisión de autores y las [[Proyectos/Proyecto Grindr/Investigación/Entrevistas Grindr\|entrevistas]]
@@ -14,3 +14,8 @@ El mapa conceptual se elaboró en base a la investigación, por tanto de la revi
   <line x1="12" y1="8" x2="12" y2="16" stroke="currentColor" stroke-width="2"/>
   <line x1="8" y1="12" x2="16" y2="12" stroke="currentColor" stroke-width="2"/>
 </svg>
+
+<object src="https://www.dropbox.com/s/j8hmsr5osez10xz/ayuda.svg?st=8mlqbb33&raw=1" 
+        type="image/svg+xml" 
+        width="100%" height="100%">
+    </object>
