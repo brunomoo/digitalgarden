@@ -1,0 +1,13 @@
+.svg-container {
+    width: 80vw; /* 80% del ancho de la pantalla */
+    max-width: 500px; /* Máximo tamaño */
+    aspect-ratio: 16 / 9; /* Ajusta la relación de aspecto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+.svg-container object {
+    width: 100%;
+    height: 100%;
+}
