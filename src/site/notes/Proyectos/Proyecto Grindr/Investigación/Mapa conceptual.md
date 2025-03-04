@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/mapa-conceptual/","created":"2025-02-27T12:14:19.761-05:00","updated":"2025-03-03T19:02:42.736-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/mapa-conceptual/","created":"2025-02-27T12:14:19.761-05:00","updated":"2025-03-03T19:08:16.976-05:00"}
 ---
 
 El mapa conceptual se elaboró en base a la investigación, por tanto de la revisión de autores y las [[Proyectos/Proyecto Grindr/Investigación/Entrevistas Grindr\|entrevistas]]
@@ -57,5 +57,45 @@ El mapa conceptual se elaboró en base a la investigación, por tanto de la revi
         color: white;
     }
 </style>
+
+<body data-theme="light">
+    <button onclick="toggleTheme()">Cambiar Tema</button>
+    <div class="theme-container">
+        <object id="svgObject" type="image/svg+xml" data="dibujo.svg"></object>
+    </div>
+</body>
+
+<style>
+    [data-theme="light"] {
+        color: black;
+    }
+    [data-theme="dark"] {
+        color: white;
+    }
+</style>
+
+<script>
+    function toggleTheme() {
+        let body = document.body;
+        body.setAttribute("data-theme", body.getAttribute("data-theme") === "light" ? "dark" : "light");
+    }
+</script>
+<button onclick="changeSVGColor()">Cambiar Tema</button>
+
+<div class="theme-container">
+    <object id="svgObject" type="image/svg+xml" data="dibujo.svg"></object>
+</div>
+
+<script>
+    function changeSVGColor() {
+        let svgObject = document.getElementById("svgObject");
+        let theme = document.body.classList.toggle("dark-mode") ? "white" : "black";
+
+        svgObject.addEventListener("load", function () {
+            let svgDoc = svgObject.contentDocument;
+            svgDoc.documentElement.style.color = theme;
+        });
+    }
+</script>
 
 
