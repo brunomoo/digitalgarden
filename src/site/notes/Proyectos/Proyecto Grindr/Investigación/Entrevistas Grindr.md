@@ -1,15 +1,28 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/entrevistas-grindr/","created":"2025-02-27T00:55:05.246-05:00","updated":"2025-03-03T15:46:10.441-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/entrevistas-grindr/","created":"2025-02-27T00:55:05.246-05:00","updated":"2025-03-04T01:58:58.401-05:00"}
 ---
 
-<body> <!-- Pon el fondo negro para verificar -->
-    <embed src="https://www.dropbox.com/scl/fi/nrpz3kadngo1vgyhxqh4o/Grindr-entrevistas-sintetizado2.svg?rlkey=yxs2tzg0rhy5kremgiigiosab&st=t3q1d04d&raw=1" 
-        type="image/svg+xml" 
-        width="100%" height="100%"
-        style="background: transparent !important; pointer-events: none !important;"
-        >
-    </embed>
-</body>
+<div class="svg-container" style="display: flex; justify-content: center; align-items: center; width: 100%;"></div>
+
+<script>
+fetch("https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevistas_sintetizado_____.svg")
+  .then(response => response.text())
+  .then(svg => {
+    // Inyecta el SVG en el contenedor
+    document.querySelector(".svg-container").innerHTML = svg;
+
+    // Asegura que el SVG ocupe el 100% del ancho y alto del contenedor
+    const svgElement = document.querySelector(".svg-container svg");
+    if (svgElement) {
+      svgElement.style.width = "100%";
+      svgElement.style.height = "100%";
+    }
+  })
+  .catch(error => {
+    console.error("Error al cargar el SVG:", error);
+  });
+</script>
+
 Para profundizar más en los hallazgos de las entrevistas, se puede ver [[Proyectos/Proyecto Grindr/Investigación/Tipos de perfiles\|Tipos de perfiles]]
 En base a entrevistas a usuarios de la plataforma, se presentan algunas frases.
 
