@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/mapa-conceptual/","created":"2025-02-27T12:14:19.761-05:00","updated":"2025-03-03T21:53:50.512-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/mapa-conceptual/","created":"2025-02-27T12:14:19.761-05:00","updated":"2025-03-03T22:03:58.709-05:00"}
 ---
 
 El mapa conceptual se elaboró en base a la investigación, por tanto de la revisión de autores y las [[Proyectos/Proyecto Grindr/Investigación/Entrevistas Grindr\|entrevistas]]
@@ -30,7 +30,7 @@ El mapa conceptual se elaboró en base a la investigación, por tanto de la revi
 </div>
 
 <script>
-fetch("https://brunomoo.github.io/Grindr_web/ayuda.svg")
+fetch("https://brunomoo.github.io/Grindr_web/perfil%20anonimo____.svg")
   .then(response => response.text())
   .then(svg => {
     // Inyecta el SVG en el contenedor
