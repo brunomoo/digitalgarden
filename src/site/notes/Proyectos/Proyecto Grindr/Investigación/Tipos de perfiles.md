@@ -1,13 +1,15 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-03-19T22:58:27.587-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-03-19T23:07:26.819-05:00"}
 ---
 
 Prueba 1
-<div>
-  <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevistas_sintetizado_____.svg')">
+<div style="display: flex; gap: 10px; justify-content: center; margin-bottom: 20px;">
+  <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevistas_sintetizado_____.svg')" 
+    style="padding: 15px 30px; font-size: 20px; font-weight: bold; cursor: pointer; border: none; border-radius: 8px;">
     Palabra 1
   </button>
-  <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/otro_svg.svg')">
+  <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevistas_sintetizado_____.svg')" 
+    style="padding: 15px 30px; font-size: 20px; font-weight: bold; cursor: pointer; border: none; border-radius: 8px;">
     Palabra 2
   </button>
 </div>
@@ -19,10 +21,7 @@ function cargarSVG(url) {
   fetch(url)
     .then(response => response.text())
     .then(svg => {
-      // Inyecta el SVG en el contenedor
       document.querySelector(".svg-container").innerHTML = svg;
-
-      // Asegura que el SVG ocupe el 100% del ancho y alto del contenedor
       const svgElement = document.querySelector(".svg-container svg");
       if (svgElement) {
         svgElement.style.width = "100%";
