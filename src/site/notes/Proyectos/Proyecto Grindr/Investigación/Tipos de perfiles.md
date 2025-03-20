@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-03-19T23:37:55.527-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-03-19T23:41:17.604-05:00"}
 ---
 
 Prueba 1
@@ -43,7 +43,6 @@ Prueba 1
     border: none;
     border-radius: 12px;
     background-color: #007bff;
-    color: white;
     text-align: center;
     white-space: normal; /* Permite saltos de línea si el texto es largo */
     max-width: 280px; /* Evita que se hagan demasiado anchos */
@@ -80,7 +79,7 @@ function cargarSVG(url) {
     .catch(error => {
       console.error("Error al cargar el SVG:", error);
     }
-
+prueba 1
 
 Prueba 2
 <div class="map-container">
