@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-03-19T23:14:43.496-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-03-19T23:21:29.705-05:00"}
 ---
 
 Prueba 1
@@ -49,61 +49,32 @@ function cargarSVG(url) {
 Prueba 1
 
 Prueba 2
-<div style="display: flex; flex-direction: column; align-items: center; position: relative; width: 100%; margin-top: 20px;">
+<div style="position: relative; width: 100%; height: 400px; display: flex; justify-content: center; align-items: center;">
+  <!-- Palabra central -->
+  <div id="central-word" style="font-size: 32px; font-weight: bold; position: absolute; text-align: center;">
+    CONCEPTO
+  </div>
+
+  <!-- Palabras secundarias -->
+  <button class="concept-button" style="top: 50px; left: 20%;" onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevistas_sintetizado_____.svg')">Palabra 1</button>
   
-  <!-- Palabra central grande -->
-  <div style="font-size: 32px; font-weight: bold; text-align: center; margin-bottom: 10px; position: relative;">
-    CONCEPTO  
-  </div>
+  <button class="concept-button" style="top: 150px; right: 20%;" onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/otro_svg.svg')">Palabra 2</button>
+  
+  <button class="concept-button" style="bottom: 50px; left: 30%;" onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/otro_svg3.svg')">Palabra 3</button>
 
-  <div style="display: flex; flex-direction: column; align-items: flex-start; position: relative;">
-    <!-- Líneas y palabras conectadas -->
-    <div style="display: flex; align-items: center; margin: 10px 0;">
-      <div style="width: 50px; height: 2px; background-color: black; margin-right: 10px;"></div>
-      <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevistas_sintetizado_____.svg')" 
-        style="padding: 10px 20px; font-size: 18px; font-weight: bold; cursor: pointer; border: none; background-color: #ffcc00; border-radius: 8px;">
-        Palabra 1
-      </button>
-    </div>
-    
-    <div style="display: flex; align-items: center; margin: 10px 0;">
-      <div style="width: 50px; height: 2px; background-color: black; margin-right: 10px;"></div>
-      <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/otro_svg.svg')" 
-        style="padding: 10px 20px; font-size: 18px; font-weight: bold; cursor: pointer; border: none; background-color: #ff6600; color: white; border-radius: 8px;">
-        Palabra 2
-      </button>
-    </div>
-    
-    <div style="display: flex; align-items: center; margin: 10px 0;">
-      <div style="width: 50px; height: 2px; background-color: black; margin-right: 10px;"></div>
-      <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/otro_svg3.svg')" 
-        style="padding: 10px 20px; font-size: 18px; font-weight: bold; cursor: pointer; border: none; background-color: #0099ff; color: white; border-radius: 8px;">
-        Palabra 3
-      </button>
-    </div>
+  <button class="concept-button" style="bottom: 100px; right: 30%;" onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/otro_svg4.svg')">Palabra 4</button>
 
-  </div>
+  <!-- Líneas -->
+  <svg class="connection-line" style="top: 50px; left: 40%;" width="100" height="50"><line x1="10" y1="40" x2="90" y2="10" stroke="black" stroke-width="2"/></svg>
+  
+  <svg class="connection-line" style="top: 150px; right: 30%;" width="100" height="50"><line x1="90" y1="40" x2="10" y2="10" stroke="black" stroke-width="2"/></svg>
+  
+  <svg class="connection-line" style="bottom: 50px; left: 40%;" width="100" height="50"><line x1="10" y1="10" x2="90" y2="40" stroke="black" stroke-width="2"/></svg>
+  
+  <svg class="connection-line" style="bottom: 100px; right: 30%;" width="100" height="50"><line x1="90" y1="10" x2="10" y2="40" stroke="black" stroke-width="2"/></svg>
 </div>
 
-<div class="svg-container" style="display: flex; justify-content: center; align-items: center; width: 100%; margin-top: 20px;"></div>
-
-<script>
-function cargarSVG(url) {
-  fetch(url)
-    .then(response => response.text())
-    .then(svg => {
-      document.querySelector(".svg-container").innerHTML = svg;
-      const svgElement = document.querySelector(".svg-container svg");
-      if (svgElement) {
-        svgElement.style.width = "100%";
-        svgElement.style.height = "100%";
-      }
-    })
-    .catch(error => {
-      console.error("Error al cargar el SVG:", error);
-    });
-}
-</script>
+<div class="svg-container" style="display: flex; justify-cont
 
 Prueba 2
 [[Proyectos/Proyecto Grindr/Investigación/Corporales (anónimos)\|Corporales (anónimos)]]
