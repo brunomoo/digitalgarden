@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-03-20T02:05:48.552-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-03-20T02:09:08.594-05:00"}
 ---
 
 Estos fueron algunos de los datos que me dieron de cómo identifican distinciones entre perfiles.
@@ -27,23 +27,25 @@ Estos fueron algunos de los datos que me dieron de cómo identifican distincione
 
 <div class="svg-container"></div>
 
+
 <style>
   /* Contenedor principal */
   .container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between; /* Alinea PERFIL a la izquierda y botones a la derecha */
     gap: 50px;
     max-width: 100%;
     padding: 20px;
-    flex-wrap: wrap; /* Permite que los elementos se ajusten en móviles */
   }
 
   /* Texto grande a la izquierda */
   .title {
     font-size: 50px;
     font-weight: 900;
-    text-align: center;
+    text-align: left;
+    flex-shrink: 0; /* Evita que PERFIL se haga más pequeño */
+    padding-left: 20px;
   }
 
   /* Contenedor de los botones */
@@ -51,13 +53,12 @@ Estos fueron algunos de los datos que me dieron de cómo identifican distincione
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 100%;
-    align-items: center;
+    align-items: flex-start; /* Alinea los botones a la derecha */
   }
 
   /* Botones */
   .button-container button {
-    padding: 20px 40px;
+    padding: 22px 45px;
     font-size: 28px;
     font-weight: 900;
     cursor: pointer;
@@ -68,7 +69,7 @@ Estos fueron algunos de los datos que me dieron de cómo identifican distincione
     white-space: nowrap;
     min-width: fit-content;
     width: auto;
-    max-width: 90%; /* Evita que sobrepasen el margen en móviles */
+    max-width: 100%;
   }
 
   .button-container button:hover {
@@ -88,21 +89,28 @@ Estos fueron algunos de los datos que me dieron de cómo identifican distincione
   /* 📱 Ajustes para móviles */
   @media (max-width: 768px) {
     .container {
-      flex-direction: column; /* Acomoda "PERFIL" arriba en móviles */
-      gap: 20px;
+      flex-direction: column; /* Pone PERFIL arriba y botones abajo en móviles */
+      align-items: center;
       text-align: center;
+      gap: 20px;
     }
     
     .title {
-      font-size: 40px; /* Reduce tamaño del título en móviles */
+      font-size: 40px;
+      text-align: center;
+    }
+
+    .button-container {
+      align-items: center; /* Centra los botones en móviles */
     }
 
     .button-container button {
-      font-size: 22px; /* Botones más pequeños en móviles */
-      padding: 15px 30px; /* Reduce el padding */
+      font-size: 22px;
+      padding: 15px 30px;
     }
   }
 </style>
+
 
 <script>
 function cargarSVG(url) {
