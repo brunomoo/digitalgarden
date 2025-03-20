@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-03-19T23:41:17.604-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-03-19T23:51:37.797-05:00"}
 ---
 
 Prueba 1
@@ -36,17 +36,16 @@ Prueba 1
 
   /* Botones */
   .button-container button {
-    padding: 25px 50px; /* Botones más grandes */
-    font-size: 28px; /* Texto más grande */
-    font-weight: 900; /* Negrita fuerte */
+    padding: 20px 30px; /* Ajusta el tamaño sin hacerlo excesivo */
+    font-size: 28px; /* Texto grande */
+    font-weight: 900; /* Negrita */
     cursor: pointer;
     border: none;
     border-radius: 12px;
     background-color: #007bff;
     text-align: center;
-    white-space: normal; /* Permite saltos de línea si el texto es largo */
-    max-width: 280px; /* Evita que se hagan demasiado anchos */
-    word-wrap: break-word;
+    white-space: nowrap; /* Evita que se divida en dos líneas */
+    max-width: 100%; /* Se ajusta al contenido */
   }
 
   .button-container button:hover {
@@ -78,144 +77,12 @@ function cargarSVG(url) {
     })
     .catch(error => {
       console.error("Error al cargar el SVG:", error);
-    }
-prueba 1
-
-Prueba 2
-<div class="map-container">
-  <div class="central-word">IDENTIDAD</div>
-  <div class="word word1" onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevistas_sintetizado_____.svg')">"FALSO" Y "CALETA"</div>
-  <div class="word word2" onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevistas_sintetizado_____.svg')">"ANÓNIMO"</div>
-  <div class="word word3" onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevistas_sintetizado_____.svg')">"CUERPO"</div>
-  <div class="word word4" onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevistas_sintetizado_____.svg')">"SELFIE DE ROSTRO"</div>
-  <div class="word word5" onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevistas_sintetizado_____.svg')">"VIAJERO" Y "GIMNASIO"</div>
-</div>
-
-<!-- Contenedor para el SVG flotante -->
-<div id="svgModal" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="cerrarSVG()">&times;</span>
-    <div class="svg-container"></div>
-  </div>
-</div>
-
-<style>
-  /* Contenedor del mapa */
-  .map-container {
-    position: relative;
-    width: 400px;
-    height: 400px;
-    margin: 50px auto;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  /* Palabra central */
-  .central-word {
-    position: absolute;
-    font-size: 32px;
-    font-weight: 900;
-    text-align: center;
-    color: #fff;
-    background-color: #ff5733;
-    padding: 20px 30px;
-    border-radius: 50%;
-  }
-
-  /* Palabras alrededor */
-  .word {
-    position: absolute;
-    font-size: 22px;
-    font-weight: 900;
-    color: white;
-    background-color: #007bff;
-    padding: 15px;
-    border-radius: 50%;
-    text-align: center;
-    width: 140px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-  }
-
-  .word:hover {
-    background-color: #0056b3;
-    transform: scale(1.1);
-  }
-
-  /* Posiciones de las palabras en círculo */
-  .word1 { top: 10%; left: 50%; transform: translateX(-50%); }
-  .word2 { top: 30%; right: 10%; }
-  .word3 { bottom: 10%; left: 50%; transform: translateX(-50%); }
-  .word4 { top: 30%; left: 10%; }
-  .word5 { bottom: 30%; right: 10%; }
-
-  /* Modal para el SVG */
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1000;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    justify-content: center;
-    align-items: center;
-  }
-
-  .modal-content {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 80%;
-    max-width: 600px;
-    text-align: center;
-    position: relative;
-  }
-
-  .close {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    font-size: 30px;
-    cursor: pointer;
-    color: #333;
-  }
-
-  .svg-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .svg-container svg {
-    width: 100%;
-    height: auto;
-  }
-</style>
-
-<script>
-function cargarSVG(url) {
-  fetch(url)
-    .then(response => response.text())
-    .then(svg => {
-      document.querySelector(".svg-container").innerHTML = svg;
-      document.getElementById("svgModal").style.display = "flex";
-    })
-    .catch(error => {
-      console.error("Error al cargar el SVG:", error);
     });
 }
-
-function cerrarSVG() {
-  document.getElementById("svgModal").style.display = "none";
-  document.querySelector(".svg-container").innerHTML = "";
-}
 </script>
+prueba 1
 
-prueba 2
+
 [[Proyectos/Proyecto Grindr/Investigación/Corporales (anónimos)\|Corporales (anónimos)]]
 [[Proyectos/Proyecto Grindr/Investigación/Heteronormativos\|Heteronormativos]]
 
