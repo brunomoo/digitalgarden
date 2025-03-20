@@ -1,51 +1,68 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-03-19T23:51:37.797-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-03-19T23:56:06.633-05:00"}
 ---
 
 Prueba 1
-<div class="button-container">
-  <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevistas_sintetizado_____.svg')">
-    "FALSO" Y "CALETA"
-  </button>
-  <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevistas_sintetizado_____.svg')">
-    "ANÓNIMO"
-  </button>
-  <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevistas_sintetizado_____.svg')">
-    "CUERPO"
-  </button>
-  <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevistas_sintetizado_____.svg')">
-    "SELFIE DE ROSTRO"
-  </button>
-  <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevistas_sintetizado_____.svg')">
-    "VIAJERO" Y "GIMNASIO"
-  </button>
+<div class="container">
+  <div class="title">PERFIL</div>
+  <div class="button-container">
+    <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevistas_sintetizado_____.svg')">
+      "FALSO" Y "CALETA"
+    </button>
+    <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevistas_sintetizado_____.svg')">
+      "ANÓNIMO"
+    </button>
+    <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevistas_sintetizado_____.svg')">
+      "CUERPO"
+    </button>
+    <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevistas_sintetizado_____.svg')">
+      "SELFIE DE ROSTRO"
+    </button>
+    <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevistas_sintetizado_____.svg')">
+      "VIAJERO" Y "GIMNASIO"
+    </button>
+  </div>
 </div>
 
 <div class="svg-container"></div>
 
 <style>
-  /* Contenedor de los botones */
-  .button-container {
+  /* Contenedor principal */
+  .container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 15px; /* Espacio entre botones */
+    align-items: center;
     justify-content: center;
+    gap: 50px; /* Espacio entre título y botones */
     max-width: 100%;
     padding: 20px;
   }
 
+  /* Texto grande a la izquierda */
+  .title {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  /* Contenedor de los botones */
+  .button-container {
+    display: flex;
+    flex-direction: column; /* Alinea los botones verticalmente */
+    gap: 15px;
+  }
+
   /* Botones */
   .button-container button {
-    padding: 20px 30px; /* Ajusta el tamaño sin hacerlo excesivo */
-    font-size: 28px; /* Texto grande */
-    font-weight: 900; /* Negrita */
+    padding: 15px 30px;
+    font-size: 28px;
+    font-weight: 900;
     cursor: pointer;
     border: none;
     border-radius: 12px;
     background-color: #007bff;
     text-align: center;
-    white-space: nowrap; /* Evita que se divida en dos líneas */
-    max-width: 100%; /* Se ajusta al contenido */
+    white-space: nowrap;
+    max-width: 100%;
   }
 
   .button-container button:hover {
@@ -80,6 +97,7 @@ function cargarSVG(url) {
     });
 }
 </script>
+
 prueba 1
 
 
