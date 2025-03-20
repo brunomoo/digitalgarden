@@ -1,7 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/entrevistas-grindr/","created":"2025-02-27T00:55:05.246-05:00","updated":"2025-03-04T01:58:58.401-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/entrevistas-grindr/","created":"2025-02-27T00:55:05.246-05:00","updated":"2025-03-19T22:16:46.998-05:00"}
 ---
 
+En torno a distintas preguntas generales que realice a algunos usuarios, elaboré este esquema, que reúne palabras claves sobre sus experiencias en la plataforma.
 <div class="svg-container" style="display: flex; justify-content: center; align-items: center; width: 100%;"></div>
 
 <script>
@@ -23,8 +24,8 @@ fetch("https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevista
   });
 </script>
 
-Para profundizar más en los hallazgos de las entrevistas, se puede ver [[Proyectos/Proyecto Grindr/Investigación/Tipos de perfiles\|Tipos de perfiles]]
-En base a entrevistas a usuarios de la plataforma, se presentan algunas frases.
+Además, aquí algunos partes de dichas entrevistas.
+Para profundizar más, se puede ver [[Proyectos/Proyecto Grindr/Investigación/Tipos de perfiles\|Tipos de perfiles]]
 
 >[!quote] Percepción sobre Grindr 
 >Creo que es una **aplicación plástica, engañosa, muy poco fiable**. No hay un filtro de alguna manera de a quién te puedes encontrar cualquier persona podría usar la aplicación. (...) Porque **el principal foco de de cada usuario en Grindr no es cómo eres, sino cómo te ves**, dándole relevancia, a cuánto pesas, cuánto mides, cuál es tu etnia, cuál es tu rol. (...) Todo es muy muy plástico, es muy cómo te ves y creo que desplaza de manera secundaria o también la esconde, el quién eres tú? Entonces se vuelve más un mercado de carne, no?

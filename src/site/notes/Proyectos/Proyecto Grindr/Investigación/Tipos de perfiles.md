@@ -1,9 +1,44 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-03-03T16:56:02.188-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-03-19T22:58:27.587-05:00"}
 ---
 
+Prueba 1
+<div>
+  <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/Grindr_entrevistas_sintetizado_____.svg')">
+    Palabra 1
+  </button>
+  <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/otro_svg.svg')">
+    Palabra 2
+  </button>
+</div>
+
+<div class="svg-container" style="display: flex; justify-content: center; align-items: center; width: 100%;"></div>
+
+<script>
+function cargarSVG(url) {
+  fetch(url)
+    .then(response => response.text())
+    .then(svg => {
+      // Inyecta el SVG en el contenedor
+      document.querySelector(".svg-container").innerHTML = svg;
+
+      // Asegura que el SVG ocupe el 100% del ancho y alto del contenedor
+      const svgElement = document.querySelector(".svg-container svg");
+      if (svgElement) {
+        svgElement.style.width = "100%";
+        svgElement.style.height = "100%";
+      }
+    })
+    .catch(error => {
+      console.error("Error al cargar el SVG:", error);
+    });
+}
+</script>
+
+Prueba 1
 [[Proyectos/Proyecto Grindr/Investigación/Corporales (anónimos)\|Corporales (anónimos)]]
 [[Proyectos/Proyecto Grindr/Investigación/Heteronormativos\|Heteronormativos]]
+
 Perfil falso y caleta
 <!-- Pon el fondo negro para verificar -->
     <embed src="https://www.dropbox.com/scl/fi/4xf98429iztssr03s76dw/perfil-falso-y-caleta___.svg?rlkey=zz2ula0hb9duxb0w50mq7mtyp&st=vwpyyjb7&raw=1" 
