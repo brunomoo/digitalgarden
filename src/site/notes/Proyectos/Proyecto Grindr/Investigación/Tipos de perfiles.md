@@ -1,25 +1,25 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-03-20T02:09:08.594-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-03-20T10:00:33.791-05:00"}
 ---
 
-Estos fueron algunos de los datos que me dieron de cómo identifican distinciones entre perfiles.
+Estos fueron algunos de los datos que me dieron de cómo identifican distinciones entre perfiles. Se puede hacer click en los contenedores para ver cada mapa.
 <div class="container">
   <div class="title">Perfil</div>
   <div class="button-container">
     <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/perfil falso y caleta___.svg')">
-      "Falso" Y "Caleta"
+      Falso + Caleta
     </button>
     <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/perfil anonimo____.svg')">
-      "Anónimo"
+      Anónimo
     </button>
     <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/perfil de cuerpo___.svg')">
-      "Cuerpo"
+      Cuerpo
     </button>
     <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/perfil de selfie de rostro___.svg')">
-      "Selfie de rostro"
+      Selfie de rostro
     </button>
     <button onclick="cargarSVG('https://brunomoo.github.io/Grindr_web/digitalgarden/img/perfil viajero y de gimnasio___.svg')">
-      "Viajero" Y "Gimnasio"
+      Viajero + Gimnasio
     </button>
   </div>
 </div>
@@ -58,7 +58,7 @@ Estos fueron algunos de los datos que me dieron de cómo identifican distincione
 
   /* Botones */
   .button-container button {
-    padding: 22px 45px;
+    padding: 30px 45px;
     font-size: 28px;
     font-weight: 900;
     cursor: pointer;
