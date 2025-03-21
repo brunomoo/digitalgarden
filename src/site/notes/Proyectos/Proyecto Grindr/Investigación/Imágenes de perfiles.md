@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/imagenes-de-perfiles/","created":"2025-03-20T01:17:56.151-05:00","updated":"2025-03-20T21:35:25.781-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/imagenes-de-perfiles/","created":"2025-03-20T01:17:56.151-05:00","updated":"2025-03-20T21:40:36.491-05:00"}
 ---
 
 
@@ -73,7 +73,6 @@ Luego, estos perfiles fueron los que me interesaron en profundizar
     border: none;
     border-radius: 12px;
     background-color: #007bff;
-    color: white;
     text-align: center;
     white-space: nowrap;
     min-width: fit-content;
@@ -169,8 +168,8 @@ function cargarContenido(svgUrl, tipo) {
   const contenido = {
     falsoCaleta: {
       imagenes1: [
-        "https://www.dropbox.com/scl/fi/lahch8jdya1ofd2rvu2xv/Bisex1-41.webp?raw=1",
-        "https://www.dropbox.com/scl/fi/9nw7yokp558oms861ofna/Bisex-2-47.webp?raw=1"
+        "https://www.dropbox.com/scl/fi/lohzvgh0t8udaudiujmln/Calet2-17.webp?rlkey=twzgj46b02s1j3nwlw2aqwtfu&st=rrsyxv2z&raw=1",
+        "https://www.dropbox.com/scl/fi/do1a8o34qsom63hsly4hc/Calet1-68.webp?rlkey=dv4w6fn50ehv3n80709f2swnh&st=wf97wnt9&raw=1"
       ],
       texto1: "Falso + Caleta: Representación de perfiles encubiertos.",
       imagenes2: [
@@ -205,8 +204,8 @@ function cargarContenido(svgUrl, tipo) {
     },
     viajero: {
       imagenes1: [
-        "https://www.dropbox.com/scl/fi/vzhks9btzny6oz83l5a4g/Viaj1-85.webp?raw=1",
-        "https://www.dropbox.com/scl/fi/wasufuvepkfarmf9def5n/Viaj-2-85.webp?raw=1"
+        "https://www.dropbox.com/scl/fi/vzhks9btzny6oz83l5a4g/Viaj1-85.webp?rlkey=6zety75glc58h7aqea9xnucm3&st=lx4yfsa3&raw=1",
+        "https://www.dropbox.com/scl/fi/wasufuvepkfarmf9def5n/Viaj-2-85.webp?rlkey=1h6d1edj8zl4n16aqn89yiqbz&st=zs73e0cy&raw=1"
       ],
       texto1: "Viajero + Gimnasio: Perfiles en movimiento.",
       imagenes2: [],
