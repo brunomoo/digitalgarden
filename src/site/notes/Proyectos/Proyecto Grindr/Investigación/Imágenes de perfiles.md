@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/imagenes-de-perfiles/","created":"2025-03-20T01:17:56.151-05:00","updated":"2025-03-20T20:48:57.991-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/imagenes-de-perfiles/","created":"2025-03-20T01:17:56.151-05:00","updated":"2025-03-20T20:59:13.292-05:00"}
 ---
 
 
@@ -10,59 +10,61 @@ Luego, estos perfiles fueron los que me interesaron en profundizar
 <div class="container">
   <div class="title">Perfil</div>
   <div class="button-container">
-    <button onclick="cargarContenido('https://brunomoo.github.io/Grindr_web/digitalgarden/img/perfil falso y caleta___.svg', 'Falso + Caleta')">
+    <button onclick="cargarContenido('https://brunomoo.github.io/Grindr_web/digitalgarden/img/perfil falso y caleta___.svg', 'falsoCaleta')">
       Falso + Caleta
     </button>
-    <button onclick="cargarContenido('https://brunomoo.github.io/Grindr_web/digitalgarden/img/perfil anonimo____.svg', 'Anónimo')">
+    <button onclick="cargarContenido('https://brunomoo.github.io/Grindr_web/digitalgarden/img/perfil anonimo____.svg', 'anonimo')">
       Anónimo
     </button>
-    <button onclick="cargarContenido('https://brunomoo.github.io/Grindr_web/digitalgarden/img/perfil de cuerpo___.svg', 'Cuerpo')">
+    <button onclick="cargarContenido('https://brunomoo.github.io/Grindr_web/digitalgarden/img/perfil de cuerpo___.svg', 'cuerpo')">
       Cuerpo
     </button>
-    <button onclick="cargarContenido('https://brunomoo.github.io/Grindr_web/digitalgarden/img/perfil de selfie de rostro___.svg', 'Selfie de rostro')">
+    <button onclick="cargarContenido('https://brunomoo.github.io/Grindr_web/digitalgarden/img/perfil de selfie de rostro___.svg', 'selfie')">
       Selfie de rostro
     </button>
-    <button onclick="cargarContenido('https://brunomoo.github.io/Grindr_web/digitalgarden/img/perfil viajero y de gimnasio___.svg', 'Viajero + Gimnasio')">
+    <button onclick="cargarContenido('https://brunomoo.github.io/Grindr_web/digitalgarden/img/perfil viajero y de gimnasio___.svg', 'viajero')">
       Viajero + Gimnasio
     </button>
   </div>
 </div>
 
-<!-- Contenedor donde se mostrará el SVG -->
+<!-- Contenedor para SVG -->
 <div class="svg-container"></div>
 
-<!-- Contenedor para las imágenes y el texto -->
-<div class="extra-content" style="display: flex; flex-direction: column; align-items: center; text-align: center; margin-top: 20px;"></div>
+<!-- Contenedor para imágenes y texto -->
+<div class="image-container">
+  <div class="image-group" id="grupo1"></div>
+  <p class="image-text" id="texto1"></p>
+  
+  <div class="image-group" id="grupo2"></div>
+  <p class="image-text" id="texto2"></p>
+</div>
 
 <style>
-  /* Contenedor principal */
   .container {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Alinea PERFIL a la izquierda y botones a la derecha */
+    justify-content: space-between;
     gap: 50px;
     max-width: 100%;
     padding: 20px;
   }
 
-  /* Texto grande a la izquierda */
   .title {
     font-size: 50px;
     font-weight: 900;
     text-align: left;
-    flex-shrink: 0; /* Evita que PERFIL se haga más pequeño */
+    flex-shrink: 0;
     padding-left: 20px;
   }
 
-  /* Contenedor de los botones */
   .button-container {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    align-items: flex-start; /* Alinea los botones a la derecha */
+    align-items: flex-start;
   }
 
-  /* Botones */
   .button-container button {
     padding: 30px 45px;
     font-size: 28px;
@@ -83,7 +85,6 @@ Luego, estos perfiles fueron los que me interesaron en profundizar
     transform: scale(1.1);
   }
 
-  /* Contenedor del SVG */
   .svg-container {
     display: flex;
     justify-content: center;
@@ -92,18 +93,35 @@ Luego, estos perfiles fueron los que me interesaron en profundizar
     margin-top: 20px;
   }
 
-  /* Contenedor de imágenes y texto */
-  .extra-content img {
-    max-width: 100%;
-    height: auto;
-    width: 300px;
-    margin: 5px;
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
-  /* 📱 Ajustes para móviles */
+  .image-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+
+  .image-group img {
+    max-width: 100%;
+    height: auto;
+    width: 250px;
+  }
+
+  .image-text {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
   @media (max-width: 768px) {
     .container {
-      flex-direction: column; /* Pone PERFIL arriba y botones abajo en móviles */
+      flex-direction: column;
       align-items: center;
       text-align: center;
       gap: 20px;
@@ -115,7 +133,7 @@ Luego, estos perfiles fueron los que me interesaron en profundizar
     }
 
     .button-container {
-      align-items: center; /* Centra los botones en móviles */
+      align-items: center;
     }
 
     .button-container button {
@@ -126,72 +144,83 @@ Luego, estos perfiles fueron los que me interesaron en profundizar
 </style>
 
 <script>
-  // Mapeo de imágenes y texto para cada perfil
-  const perfiles = {
-    "Falso + Caleta": {
-      imagenes: [
-        "https://www.dropbox.com/scl/fi/lahch8jdya1ofd2rvu2xv/Bisex1-41.webp?rlkey=60bhqe3tzfksp6z8zak2hnmpi&st=2dxidezm&raw=1",
-        "https://www.dropbox.com/scl/fi/9nw7yokp558oms861ofna/Bisex-2-47.webp?rlkey=h5zy0xs5du9dsjokqoaf4ixd9&st=9tu9japc&raw=1"
+function cargarContenido(svgUrl, tipo) {
+  // Cargar SVG
+  fetch(svgUrl)
+    .then(response => response.text())
+    .then(svg => {
+      document.querySelector(".svg-container").innerHTML = svg;
+      const svgElement = document.querySelector(".svg-container svg");
+      if (svgElement) {
+        svgElement.style.width = "100%";
+        svgElement.style.height = "auto";
+      }
+    })
+    .catch(error => {
+      console.error("Error al cargar el SVG:", error);
+    });
+
+  // Definir las imágenes y textos por pares
+  const contenido = {
+    falsoCaleta: {
+      imagenes1: [
+        "https://www.dropbox.com/scl/fi/lahch8jdya1ofd2rvu2xv/Bisex1-41.webp?raw=1",
+        "https://www.dropbox.com/scl/fi/9nw7yokp558oms861ofna/Bisex-2-47.webp?raw=1"
       ],
-      texto: "Texto debajo de ambas imágenes - Falso + Caleta"
+      texto1: "Falso + Caleta: Representación de perfiles encubiertos.",
+      imagenes2: [
+        "https://www.dropbox.com/scl/fi/random1.webp?raw=1",
+        "https://www.dropbox.com/scl/fi/random2.webp?raw=1"
+      ],
+      texto2: "Ejemplo de interacciones en perfiles ocultos."
     },
-    "Anónimo": {
-      imagenes: [
-        "https://www.dropbox.com/scl/fi/xyz123/anonimo1.webp?raw=1",
-        "https://www.dropbox.com/scl/fi/abc456/anonimo2.webp?raw=1"
+    anonimo: {
+      imagenes1: [
+        "https://www.dropbox.com/scl/fi/abcdef123/anonym1.webp?raw=1",
+        "https://www.dropbox.com/scl/fi/ghijkl456/anonym2.webp?raw=1"
       ],
-      texto: "Texto debajo de ambas imágenes - Anónimo"
+      texto1: "Anónimo: La invisibilidad en los espacios digitales.",
+      imagenes2: [],
+      texto2: ""
     },
-    "Cuerpo": {
-      imagenes: [
-        "https://www.dropbox.com/scl/fi/def789/cuerpo1.webp?raw=1",
-        "https://www.dropbox.com/scl/fi/ghi101/cuerpo2.webp?raw=1"
+    cuerpo: {
+      imagenes1: [
+        "https://www.dropbox.com/scl/fi/mnopqr789/body1.webp?raw=1",
+        "https://www.dropbox.com/scl/fi/stuvwx101/body2.webp?raw=1"
       ],
-      texto: "Texto debajo de ambas imágenes - Cuerpo"
+      texto1: "Cuerpo: La exposición de lo físico en la red.",
+      imagenes2: [],
+      texto2: ""
     },
-    "Selfie de rostro": {
-      imagenes: [
-        "https://www.dropbox.com/scl/fi/jkl112/selfie1.webp?raw=1",
-        "https://www.dropbox.com/scl/fi/mno113/selfie2.webp?raw=1"
+    selfie: {
+      imagenes1: [
+        "https://www.dropbox.com/scl/fi/xyz987/selfie1.webp?raw=1",
+        "https://www.dropbox.com/scl/fi/abc654/selfie2.webp?raw=1"
       ],
-      texto: "Texto debajo de ambas imágenes - Selfie de rostro"
-    },
-    "Viajero + Gimnasio": {
-      imagenes: [
-        "https://www.dropbox.com/scl/fi/pqr114/viajero1.webp?raw=1",
-        "https://www.dropbox.com/scl/fi/stu115/viajero2.webp?raw=1"
+      texto1: "Selfie de rostro: Identidad y autenticidad.",
+      imagenes2: [
+        "https://www.dropbox.com/scl/fi/selfie-extra1.webp?raw=1",
+        "https://www.dropbox.com/scl/fi/selfie-extra2.webp?raw=1"
       ],
-      texto: "Texto debajo de ambas imágenes - Viajero + Gimnasio"
+      texto2: "Diferentes formas de representación personal."
     }
   };
 
-  function cargarContenido(url, perfil) {
-    // Cargar el SVG
-    fetch(url)
-      .then(response => response.text())
-      .then(svg => {
-        document.querySelector(".svg-container").innerHTML = svg;
-        const svgElement = document.querySelector(".svg-container svg");
-        if (svgElement) {
-          svgElement.style.width = "100%";
-          svgElement.style.height = "auto";
-        }
-      })
-      .catch(error => console.error("Error al cargar el SVG:", error));
+  // Actualizar imágenes y texto por pares
+  document.getElementById("grupo1").innerHTML = contenido[tipo].imagenes1
+    .map(imgSrc => `<img src="${imgSrc}">`)
+    .join("");
 
-    // Cargar imágenes y texto
-    const contenido = perfiles[perfil];
-    if (contenido) {
-      const extraContainer = document.querySelector(".extra-content");
-      extraContainer.innerHTML = `
-        <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
-          ${contenido.imagenes.map(img => `<img src="${img}" style="width: 300px; height: auto;">`).join("")}
-        </div>
-        <p style="margin-top: 5px; font-size: 14px;">${contenido.texto}</p>
-      `;
-    }
-  }
+  document.getElementById("texto1").textContent = contenido[tipo].texto1;
+
+  document.getElementById("grupo2").innerHTML = contenido[tipo].imagenes2.length
+    ? contenido[tipo].imagenes2.map(imgSrc => `<img src="${imgSrc}">`).join("")
+    : "";
+
+  document.getElementById("texto2").textContent = contenido[tipo].texto2;
+}
 </script>
+
 
 ## Bisexuales
 <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
