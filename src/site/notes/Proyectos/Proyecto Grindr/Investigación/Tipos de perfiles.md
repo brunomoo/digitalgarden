@@ -1,8 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-03-20T20:48:32.412-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/tipos-de-perfiles/","created":"2025-02-27T12:20:26.596-05:00","updated":"2025-03-20T21:06:12.148-05:00"}
 ---
 
-[[Proyectos/Proyecto Grindr/Investigación/Imágenes de perfiles\|Imágenes de perfiles]]
 Estos fueron algunos de los datos que me dieron de cómo identifican distinciones entre perfiles. Se puede hacer click en los contenedores para ver cada mapa.
 <div class="container">
   <div class="title">Perfil</div>
