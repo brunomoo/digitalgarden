@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/imagenes-de-perfiles/","created":"2025-03-20T01:17:56.151-05:00","updated":"2025-04-10T13:05:11.576-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/imagenes-de-perfiles/","created":"2025-03-20T01:17:56.151-05:00","updated":"2025-04-10T13:07:34.755-05:00"}
 ---
 
 Esta clasificación se hizo en base a [Los chicos sólo quieren divertirse by tony robles on Prezi](https://prezi.com/view/hiFN5Nz8IukcPMbjM5y6/).
