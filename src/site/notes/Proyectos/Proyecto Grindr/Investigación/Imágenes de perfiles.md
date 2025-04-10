@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/imagenes-de-perfiles/","created":"2025-03-20T01:17:56.151-05:00","updated":"2025-04-10T12:13:05.132-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/imagenes-de-perfiles/","created":"2025-03-20T01:17:56.151-05:00","updated":"2025-04-10T12:16:03.441-05:00"}
 ---
 
 
@@ -221,10 +221,8 @@ function cargarContenido(svgUrl, tipo) {
 
   document.getElementById("grupo1").innerHTML = contenido[tipo].imagenes1.map(imgSrc => `<img src="${imgSrc}">`).join("");
   document.getElementById("texto1").textContent = contenido[tipo].texto1;
-   document.getElementById("grupo2").innerHTML
-	contenido[tipo].imagenes2.map(imgSrc => `<img src="${imgSrc}">`).join("");
+  document.getElementById("grupo2").innerHTML = contenido[tipo].imagenes2.map(imgSrc => `<img src="${imgSrc}">`).join("");
   document.getElementById("texto2").textContent = contenido[tipo].texto2;
-
 }
 </script>
 
