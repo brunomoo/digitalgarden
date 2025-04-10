@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/imagenes-de-perfiles/","created":"2025-03-20T01:17:56.151-05:00","updated":"2025-04-10T12:05:32.511-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/imagenes-de-perfiles/","created":"2025-03-20T01:17:56.151-05:00","updated":"2025-04-10T12:13:05.132-05:00"}
 ---
 
 
@@ -181,7 +181,7 @@ function cargarContenido(svgUrl, tipo) {
     anonimo: {
       imagenes1: [
 	      "https://www.dropbox.com/scl/fi/f8nvx3ynmx78m9lr8at8t/anonim1.webp?rlkey=v77gi6qmhv98ab7jpxqxi1qm3&st=z5v45q6n&raw=1",
-	      "https://www.dropbox.com/scl/fi/p7ch4jp77pqm0d9uzq9kd/anonim2.webp?rlkey=ktumv38b9sttsyhhmlvm78op5&st=0c7d4nbz&dl=0"
+	      "https://www.dropbox.com/scl/fi/p7ch4jp77pqm0d9uzq9kd/anonim2.webp?rlkey=ktumv38b9sttsyhhmlvm78op5&st=0c7d4nbz&raw=1"
 		],
       texto1: "Anónimo: La invisibilidad en los espacios digitales.",
       imagenes2: [],
@@ -221,6 +221,10 @@ function cargarContenido(svgUrl, tipo) {
 
   document.getElementById("grupo1").innerHTML = contenido[tipo].imagenes1.map(imgSrc => `<img src="${imgSrc}">`).join("");
   document.getElementById("texto1").textContent = contenido[tipo].texto1;
+   document.getElementById("grupo2").innerHTML
+	contenido[tipo].imagenes2.map(imgSrc => `<img src="${imgSrc}">`).join("");
+  document.getElementById("texto2").textContent = contenido[tipo].texto2;
+
 }
 </script>
 
