@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/imagenes-de-perfiles/","created":"2025-03-20T01:17:56.151-05:00","updated":"2025-03-20T21:40:36.491-05:00"}
+{"dg-publish":true,"permalink":"/proyectos/proyecto-grindr/investigacion/imagenes-de-perfiles/","created":"2025-03-20T01:17:56.151-05:00","updated":"2025-04-10T12:05:32.511-05:00"}
 ---
 
 
@@ -168,26 +168,29 @@ function cargarContenido(svgUrl, tipo) {
   const contenido = {
     falsoCaleta: {
       imagenes1: [
-        "https://www.dropbox.com/scl/fi/lohzvgh0t8udaudiujmln/Calet2-17.webp?rlkey=twzgj46b02s1j3nwlw2aqwtfu&st=rrsyxv2z&raw=1",
-        "https://www.dropbox.com/scl/fi/do1a8o34qsom63hsly4hc/Calet1-68.webp?rlkey=dv4w6fn50ehv3n80709f2swnh&st=wf97wnt9&raw=1"
+        "https://www.dropbox.com/scl/fi/w22kjr6sa9dn1zdo3mn9x/fals1.webp?rlkey=fy7a7epu39dk340iljlq7ghoj&st=2slvry19&raw=1",
+        "https://www.dropbox.com/scl/fi/rspm9hy5pr5sgo9qefdhr/fals2.webp?rlkey=ubueky4j12qsha44vtueesgqq&st=n9o5ap8m&raw=1"
       ],
       texto1: "Falso + Caleta: Representación de perfiles encubiertos.",
       imagenes2: [
-        "https://www.dropbox.com/scl/fi/lohzvgh0t8udaudiujmln/Calet2-17.webp?raw=1",
-        "https://www.dropbox.com/scl/fi/do1a8o34qsom63hsly4hc/Calet1-68.webp?raw=1"
+        "https://www.dropbox.com/scl/fi/b3vrslann9aysrv9mfqmm/calet1.webp?rlkey=49cuosymb2mfggb73oubix97f&st=vieny1wp&raw=1",
+        "https://www.dropbox.com/scl/fi/fut1rv4ytf941rzww7fvw/calet3.webp?rlkey=s9w8cainscrz7yian49nnfiom&st=s6munmde&raw=1"
       ],
       texto2: "Ejemplo de interacciones en perfiles ocultos."
     },
     anonimo: {
-      imagenes1: [],
+      imagenes1: [
+	      "https://www.dropbox.com/scl/fi/f8nvx3ynmx78m9lr8at8t/anonim1.webp?rlkey=v77gi6qmhv98ab7jpxqxi1qm3&st=z5v45q6n&raw=1",
+	      "https://www.dropbox.com/scl/fi/p7ch4jp77pqm0d9uzq9kd/anonim2.webp?rlkey=ktumv38b9sttsyhhmlvm78op5&st=0c7d4nbz&dl=0"
+		],
       texto1: "Anónimo: La invisibilidad en los espacios digitales.",
       imagenes2: [],
       texto2: ""
     },
     cuerpo: {
       imagenes1: [
-        "https://www.dropbox.com/scl/fi/mnopqr789/body1.webp?raw=1",
-        "https://www.dropbox.com/scl/fi/stuvwx101/body2.webp?raw=1"
+        "https://www.dropbox.com/scl/fi/qej7nk2kyttnrji4pf0ch/cuerp1.webp?rlkey=a9pqs1l0dv48u5ifkwuyyyroe&st=6arofw1c&raw=1",
+        "https://www.dropbox.com/scl/fi/dpxl8v7gcaaidus28ftls/cuerp3.webp?rlkey=tttos5kv3th1gn9g2h2arb84x&st=96g6lk3m&raw=1"
       ],
       texto1: "Cuerpo: La exposición de lo físico en la red.",
       imagenes2: [],
@@ -208,8 +211,11 @@ function cargarContenido(svgUrl, tipo) {
         "https://www.dropbox.com/scl/fi/wasufuvepkfarmf9def5n/Viaj-2-85.webp?rlkey=1h6d1edj8zl4n16aqn89yiqbz&st=zs73e0cy&raw=1"
       ],
       texto1: "Viajero + Gimnasio: Perfiles en movimiento.",
-      imagenes2: [],
-      texto2: ""
+      imagenes2: [
+      "https://www.dropbox.com/scl/fi/inbkpm2c1sqe1xuysmcpg/gim1.webp?rlkey=4435crgbuxeiz0prph1v33rxm&st=halna48h&raw=1",
+      "https://www.dropbox.com/scl/fi/xpduor4m07sotmqiz7036/gim2-copia.webp?rlkey=gze7ta1jasyibvc1a9ro6p73a&st=fmvv4q82&raw=1"
+      ],
+      texto2: "Perfiles de gimnasio"
     }
   };
 
